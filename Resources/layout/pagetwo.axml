@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@android:color/holo_green_dark"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/sourceDest"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#97efb9"
+        android:textColor="#000000" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_gravity="left"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:text="How many days will you be staying" />
+        <EditText
+            android:id="@+id/DaysNumber"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:hint="5"
+            android:text="5"
+            android:textColor="#000000" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_gravity="left"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:text="Means of Transport" />
+        <Spinner
+            android:id="@+id/transport"
+            android:layout_marginLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/Calculate"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ede1a1"
+        android:textColor="#000000"
+        android:text="Calculate" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/Estimatetext"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:text="The rough estimate for your trip is:" />
+        <TextView
+            android:id="@+id/Costtext"
+            android:textSize="50dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#000000" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/paymentBtn"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ede1a1"
+        android:textColor="#000000"
+        android:text="Proceeed Payment" />
+</LinearLayout>

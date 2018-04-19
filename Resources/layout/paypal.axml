@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5DADE2">
+    <EditText
+        android:id="@+id/emailId1"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="10dp"
+        android:hint="ENTER YOUR EMAIL"
+        android:textSize="15dp"
+        android:textColorHint="@android:color/black" />
+    <EditText
+        android:id="@+id/passwordId"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:hint="ENTER PASSWORD"
+        android:textSize="15dp"
+        android:textColorHint="@android:color/black" />
+    <Button
+        android:id="@+id/pay1"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@android:color/black"
+        android:text="SIGN UP" />
+    <ImageView
+        android:id="@+id/i37"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/pp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+</LinearLayout>
